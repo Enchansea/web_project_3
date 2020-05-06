@@ -1,0 +1,11 @@
+.footer__links-list {
+  display: inline;
+  text-decoration: none;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links-list {
+    display: flex;
+  }
+}
