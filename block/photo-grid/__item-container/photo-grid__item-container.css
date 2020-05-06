@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .photo-grid__item-container {
     grid-template-columns: none;
     grid-template-rows: auto;
