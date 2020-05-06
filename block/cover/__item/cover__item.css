@@ -1,7 +1,7 @@
 .cover__item {
   min-height: 740px;
   color: white;
-  background-image: url('/images/route66.jpg');
+  background-image: url('../../../images/route66.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
