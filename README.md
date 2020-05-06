@@ -2,19 +2,13 @@
 
 ### Overview
 * Intro
-* Figma
-* Images
+* Plans
+
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is my third website project. Inside are elements of HTML and CSS. The project is about traveling across the US. Each section focuses on a different elements to gain more skill and real world practice. In this project I explored grid layout to display pictures and paragraphs. I also used @media inquiries to make the website viewable on different screen sizes. Namely: 1280, 1024, 768, and 320.
 
-**Figma**
+**Plans**
 
-* [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+I plan on including a form, add widgets, and play video/audio. I would also like to add some javascript elements to explore what I can do in that area.
