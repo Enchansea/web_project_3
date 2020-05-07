@@ -1,6 +1,6 @@
 .cover__item {
   min-height: 740px;
-  color: white;
+  color: #ffffff;
   background-image: url('../../../images/route66.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
   z-index: 0;
 }
 
-.cover__item:before {
+.cover__item::before {
   content: "";
   height: 100%;
   width: 100%;
@@ -22,13 +22,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: .3;
   z-index: 1;
   transition-duration: .5s;
 }
 
 .cover__item:hover:before {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {

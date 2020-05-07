@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css" type="text/css">
   <link rel="stylesheet" href="pages/index.css" type="text/css">
   <title>From Portland to Portland</title>
 </head>
 <body class="root">
   <div class="page">
     <header class="header">
-      <img class="header__logo" src="images/logo.svg">
+      <img class="header__logo" src="images/logo.svg" alt="usa logo">
       <ul class="header__links">
         <li><a class="header__lang header__lang_active" href="#">En</a></li>
         <li><a class="header__lang" href="#">Es</a></li>
@@ -33,38 +32,38 @@
         <p class="intro__text">That's exactly what we have arranged for you via this travel story</p>
         <p class="intro__sub-text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
         <ul class="intro__items">
-          <li class="intro__item"><span class="intro__item_bold">Distance (miles) </span>3,644</li>
-          <li class="intro__item"><span class="intro__item_bold">Travel time (days) </span>22</li>
-          <li class="intro__item"><span class="intro__item_bold">Highest point (feet) </span>9,613</li>
-          <li class="intro__item"><span class="intro__item_bold">Lowest point (feet) </span>-3</li>
+          <li class="intro__item"><span class="intro__item intro__item_bold">Distance (miles) </span>3,644</li>
+          <li class="intro__item"><span class="intro__item intro__item intro__item_bold">Travel time (days) </span>22</li>
+          <li class="intro__item"><span class="intro__item intro__item_bold">Highest point (feet) </span>9,613</li>
+          <li class="intro__item"><span class="intro__item intro__item_bold">Lowest point (feet) </span>-3</li>
         </ul>
       </section>
 
       <section class="photo-grid">
-        <figure class="photo-grid__item-container">
-          <img class="photo-grid__item" src="./images/highway.jpg" alt="four lane highway">
-          <img class="photo-grid__item" src="./images/island.jpg" alt="island">
-          <img class="photo-grid__item" src="./images/flight.jpg" alt="flock of birds taking flight">
-          <img class="photo-grid__item" src="./images/mistymtn.jpg" alt="misty mountain">
-          <img class="photo-grid__item" src="./images/mistylake.jpg" alt="misty lake">
-          <img class="photo-grid__item" src="./images/distantmtns.jpg" alt="distant mountains">
-          <img class="photo-grid__item" src="./images/mtnpeak.jpg" alt="standing on top of a mountain">
-          <img class="photo-grid__item" src="./images/plant.jpg" alt="plant">
-          <img class="photo-grid__item" src="./images/greenhills.jpg" alt="green hills">
-          <img class="photo-grid__item" src="./images/desertoasis.jpg" alt="desert oasis">
-          <img class="photo-grid__item" src="./images/deserthill.jpg" alt="desert hills with birds on powerlines">
-          <img class="photo-grid__item" src="./images/desertroad.jpg" alt="desert road">
-        </figure>
+        <div class="photo-grid__item-container">
+          <li><img class="photo-grid__item" src="./images/highway.jpg" alt="four lane highway"></li>
+          <li><img class="photo-grid__item" src="./images/island.jpg" alt="island"></li>
+          <li><img class="photo-grid__item" src="./images/flight.jpg" alt="flock of birds taking flight"></li>
+          <li><img class="photo-grid__item" src="./images/mistymtn.jpg" alt="misty mountain"></li>
+          <li><img class="photo-grid__item" src="./images/mistylake.jpg" alt="misty lake"></li>
+          <li><img class="photo-grid__item" src="./images/distantmtns.jpg" alt="distant mountains"></li>
+          <li><img class="photo-grid__item" src="./images/mtnpeak.jpg" alt="standing on top of a mountain"></li>
+          <li><img class="photo-grid__item" src="./images/plant.jpg" alt="plant"></li>
+          <li><img class="photo-grid__item" src="./images/greenhills.jpg" alt="green hills"></li>
+          <li><img class="photo-grid__item" src="./images/desertoasis.jpg" alt="desert oasis"></li>
+          <li><img class="photo-grid__item" src="./images/deserthill.jpg" alt="desert hills with birds on powerlines"></li>
+          <li><img class="photo-grid__item" src="./images/desertroad.jpg" alt="desert road"></li>
+        </div>
       </section>
 
       <section class="places">
         <div class="place">
           <h3 class="place__title">Maine</h3>
           <img class="place__photo" src="./images/maine.jpg" alt="lighthouse on a cliff">
-          <ul class="place__website">
-            <li class="place__website-heading">URL</li>
-            <li><a class="place__website-url" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank">global.llbean.com</a></li>
-          </ul>
+          <div class="place__website">
+            <p class="place__website-heading">URL</p>
+            <a class="place__website-url" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank">global.llbean.com</a>
+          </div>
           <div>
             <p class="place__paragraph">Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated state full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to miss. As your journey is going to be a long one, you had best be prepared for an arduous trek.</p>
             <p class="place__paragraph">Thankfully, not only is Maine home to the very first European settlers on US territory in the era of Vikings, but is also home to L.L. Bean, which is a great company to grab a super sturdy backpack from for your 3-month expedition.</p>
@@ -125,7 +124,7 @@
 
       <section class="cover">
         <a href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__item" target="_blank">
-          <h4 class="cover__title content-title">Historic Route 66</h4>
+          <h2 class="cover__title content-title">Historic Route 66</h2>
           <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
         </a>
       </section>

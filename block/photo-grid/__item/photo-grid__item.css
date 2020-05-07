@@ -2,3 +2,24 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1024) {
+  .photo-grid__item {
+    width: 100%;
+    min-height: 225px;
+  }
+}
+
+@media screen and (max-width: 768) {
+  .photo-grid__item {
+    width: 100%;
+    min-height: 264px;
+  }
+}
+
+@media screen and (max-width: 425) {
+  .photo-grid__item {
+    width: 100%;
+    min-height: 216px;
+  }
+}
+
