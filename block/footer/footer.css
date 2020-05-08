@@ -4,7 +4,6 @@
 @import url('__author/footer__author.css');
 
 .footer {
-  max-width: 1184px;
   margin: 0px 48px 0px;
   padding-bottom: 24px;
   display: flex;
