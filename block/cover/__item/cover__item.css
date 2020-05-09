@@ -10,7 +10,7 @@
   flex-direction: column;
   text-decoration: none;
   position: relative;
-  margin: 0px auto;
+  margin: 0 auto;
   z-index: 0;
 }
 
@@ -18,7 +18,7 @@
   content: "";
   height: 100%;
   width: 100%;
-  background: black;
+  background: #2A2C2F;
   position: absolute;
   top: 0;
   left: 0;

@@ -6,9 +6,9 @@
   line-height: 22px;
   max-width: 456px;
   max-height: 22px;
-  transition: opacity 0.5s linear;
+  transition: opacity .5s linear;
 }
 
 .place__website-url:hover {
-  opacity: 0.8;
+  opacity: .8;
 }

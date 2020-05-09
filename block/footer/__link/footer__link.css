@@ -7,7 +7,7 @@
   text-decoration: none;
   max-width: 42px;
   margin-right: 18px;
-  transition: opacity 0.5s linear;
+  transition: opacity .5s linear;
 }
 
 .footer__link:hover {

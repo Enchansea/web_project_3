@@ -4,7 +4,7 @@
 @import url('__author/footer__author.css');
 
 .footer {
-  margin: 0px 48px 0px;
+  margin: 0 48px 0;
   padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
@@ -13,14 +13,14 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 0px 24px 0px;
+    margin: 0 24px 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .footer {
     height: 198px;
-    margin: 0px 136px 0px 16px;
+    margin: 0 136px 0 16px;
     display: flex;
     flex-direction: column;
   }

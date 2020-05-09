@@ -1,6 +1,6 @@
 .place__photo {
   max-width: 460px;;
-  margin: 0px;
+  margin: 0;
   object-fit: contain;
 }
 

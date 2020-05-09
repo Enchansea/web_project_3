@@ -10,12 +10,12 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
   grid-gap: 48px 40px;
-  margin: 0px 148px 80px;
+  margin: 0 148px 80px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    margin: 0px 48px 80px;
+    margin: 0 48px 80px;
     grid-gap: 48px 32px;
   }
 }

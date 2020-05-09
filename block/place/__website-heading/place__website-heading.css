@@ -3,10 +3,10 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 20px;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .place__website-heading {
     line-height: 12px;
   }

@@ -7,26 +7,26 @@
 
 .intro {
   max-width: 690px;
-  margin: 0px 148px 92px;
+  margin: 0 148px 92px;
   color: #ffffff;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin: 0px 48px 92px;
+    margin: 0 48px 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 768px;
-    margin: 0px 24px 88px;
+    margin: 0 24px 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro {
-    margin: 0px 16px 64px;
+    margin: 0 16px 64px;
   }
 }
 
