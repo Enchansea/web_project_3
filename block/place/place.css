@@ -7,7 +7,7 @@
 
 .place {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
   grid-gap: 48px 40px;
   margin: 0px 148px 80px;

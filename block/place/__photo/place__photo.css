@@ -24,5 +24,13 @@
 @media screen and (max-width: 580px) {
   .place__photo {
     max-width: 320px;
+    margin: auto;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .place__photo {
+    max-width: 320px;
   }
 }
